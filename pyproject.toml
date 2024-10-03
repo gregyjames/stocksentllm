@@ -1,0 +1,18 @@
+[project]
+name = "stocksentllm"
+version = "0.1.0"
+description = "Fine tuning an llm to predict stock sentiment based on headlines."
+readme = "README.md"
+authors=[
+    "Greg James"
+]
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=0.25.1",
+    "pandas>=2.2.3",
+    "peft>=0.13.0",
+    "sentencepiece>=0.2.0",
+    "torch>=2.4.1",
+    "transformers>=4.45.1",
+    "trl>=0.11.1",
+]
